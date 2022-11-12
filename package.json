@@ -1,0 +1,21 @@
+{
+  "name": "autofajtak",
+  "version": "1.0.0",
+  "description": "Display the kind of cars",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon run app"
+  },
+  "keywords": [
+    "car"
+  ],
+  "author": "Tóth Milán",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.20"
+  }
+}

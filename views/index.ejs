@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4">Autók</h1>
+        <p class="lead font-weight-lighter">Amik bármikor bárhova elvisznek</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="pb-3">Fogalom</h1>
+      <p>Az <span class="font-weight-bold">autó</span> (elnevezése az automobile rövidítése, a görög auto-: ön- előtagból és a latin mobilis: mozgó, mozgatható szóból származik) olyan földön közlekedő, kerekeken guruló, emberek közlekedésére alkalmas jármű, amely saját hajtóművel önerőből képes mozgásra, nem egy másik jármű vagy állat mozgatja.</p>
+      <p>Hétköznapi jelentésében az autó a <span class="font-weight-bold">gépkocsi</span>, egy kerekeken guruló, saját motorja által hajtott gépjármű. A legtöbb meghatározás olyan szabályszerűségekkel írja le, mint amit elsősorban aszfaltútra terveztek, 1-8 utast szállíthat, jellemzően négy kerékkel rendelkezik, és felépítése a személyszállításra inkább alkalmassá teszi, mint áruszállításra.[1] Mindazonáltal a leírások pontossága nem tökéletes az eltérő feladatokra létrehozott, számos különböző gépkocsitípus miatt.</p>
+      <p>Az autó viszonylag gyorsan kilépett az egyszerű szárazföldi jármű szerepköréből (szállítás, utazás), amit csak közlekedésre használnak, és jelentős kulturális, valamint emocionális értékkel rendelkező, életmódot befolyásoló státuszszimbólummá emelkedett, kiváltképp az átlagosnál igényesebb vagy gyorsabb változatai. Hamar megjelent a motorsportban is, a feltalálását követő pár évtizeden belül már autóversenyeket is rendeztek.</p>
+      <p>Az autózás elterjedése maga után vonta a jobb minőségű úthálózatok kiépítését is, amelyek általánosságban növelték az utazás komfortját, és csökkentették annak idejét.</p>
+      <h1 class="display-4 text-center pb-5">Fajtáik</h1>
+
+      <div class="card-deck">
+        <div class="card">
+          <a href="/retro">
+            <img src="/img/retro_cars.jpg" class="card-img" alt="Retró autók" />
+          </a>
+          <div class="card-body">
+            <a class="text-decoration-none" href="/retro">
+              <h3 class="text-center" class="card-title">Retró autók</h3>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <a href="/super">
+            <img src="img/supercars.jpg" class="card-img" alt="Szuper autók" />
+          </a>
+          <div class="card-body">
+            <a class="text-decoration-none" href="/super">
+              <h3 class="text-center" class="card-title">Szuper autók</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include("./parts/footer.ejs") %>
+  </body>
+</html>
